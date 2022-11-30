@@ -6,8 +6,12 @@ export default function DarkMode() {
 
   return(
     <div className={`page-wrapper ${darkMode && 'dark-mode'}`}>
-      <button className="dark" onClick={() => setDarkMode(true)}>Dark Mode</button>
-      <button className="light" onClick={() => setDarkMode(false)}>Light Mode</button>
+      <h1>Dark Mode Simple Application</h1>
+
+      <div className="buttons-wrapper">
+        <button className="dark" onClick={() => setDarkMode(true)}>Dark Mode</button>
+        <button className="light" onClick={() => setDarkMode(false)}>Light Mode</button>
+      </div>      
     </div>
   )
 }
