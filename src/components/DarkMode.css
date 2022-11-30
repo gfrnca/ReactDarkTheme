@@ -1,4 +1,21 @@
 .page-wrapper {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.page-wrapper button {
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+}
+
+.dark {
+  background: #202020;
+  color: white;
 }
